@@ -7,3 +7,8 @@ The adaptation replaces placeholder biography and social links with Hamza's info
 Language icons: [Devicon](https://github.com/devicons/devicon), [MIT license](assets/icons/LICENSE). Stack badges: [Shields.io](https://shields.io). Brand marks belong to their owners.
 
 Earlier generated cover and custom card assets are retained in repository history/assets but are no longer displayed in README.md or PROJECTS.md.
+
+
+## Community game
+
+Concept inspired by [Jonathan Gin](https://github.com/JonathanGin52/JonathanGin52), [Marc Zhu](https://github.com/marcizhu/readme-chess), and [Tim Burgan](https://github.com/timburgan/timburgan). Independent implementation; no source code or artwork copied. See [game notes](game/README.md).

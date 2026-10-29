@@ -8,12 +8,7 @@ I build web and mobile applications with TypeScript, React, and React Native. My
 - 🧩 I enjoy figuring out how the interface, data, and backend fit together.
 - 🎮 On the side: browser games, Canvas experiments, and probably one more animation.
 
-<a href="PROJECTS.md">
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hamza-os-still.svg" />
-  <img src="assets/hamza-os.svg" width="100%" alt="Hamza.OS — a decorative animated co-pilot cycling through Associa, PeptAI, Swarms and Zyllux. Open the project notes." />
-</picture>
-</a>
+P.S. [This README is multiplayer.](#one-more-game)
 
 ## Languages
 
@@ -56,6 +51,27 @@ Also working with **Drizzle**, **Trigger.dev**, **Tailwind CSS**, and **GSAP**.
 
 These are ongoing projects I work on and contribute to. The source is private; each project links to a short public overview.
 
+<!-- GAME:START -->
+## One more game?
+
+One board, everyone who visits. Connect four. Leave the next move to a stranger.
+
+**🔴 Your move.** Pick a column.
+
+| [1 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C1&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) | [2 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C2&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) | [3 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C3&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) | [4 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C4&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) | [5 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C5&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) | [6 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C6&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) | [7 ↓](https://github.com/hamzaxbella/hamzaxbella/issues/new?title=play%7C1%7C0%7C7&body=Submit+this+issue+without+changing+the+title+to+play.+GitHub+Actions+updates+the+shared+board%2C+then+closes+the+issue.+Refresh+the+profile+after+the+workflow+finishes.+If+someone+moves+first%2C+refresh+and+choose+again.) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+
+Game 1 · 0 moves
+
+<sub>Click a number → submit the prefilled issue → refresh after the workflow finishes. GitHub sign-in required. [Rules & how it works](game/README.md).</sub>
+<!-- GAME:END -->
+
 ## Away from the main projects
 
 I also make small things just to see how they work — including a [particle simulation](https://github.com/hamzaxbella/Particles_Ecosystem) and a [Canvas arcade game](https://github.com/hamzaxbella/Bulleye-Bully-Bash).
@@ -65,3 +81,4 @@ I also make small things just to see how they work — including a [particle sim
 [Project notes](PROJECTS.md) · [Public repositories](https://github.com/hamzaxbella?tab=repositories&type=public)
 
 <sub>Adapted from the <a href="https://github.com/yerdaulet-damir/awesome-github-readme/blob/main/templates/01-minimal.md">Minimal Profile Template</a>. <a href="CREDITS.md">Credits</a>.</sub>
+
