@@ -1,62 +1,60 @@
-<p align="center"><img src="assets/cover.png" width="100%" alt="Hamza Bella — Software Engineer. An original modular glass-and-metal system illustration." /></p>
+# Salam, I'm Hamza 👋
 
-### Salam, I'm Hamza.
+**Software Engineer · Web, mobile & AI agents**
 
-**Software engineer building web products, mobile apps, and agent workflows.**
+I build web and mobile applications with TypeScript, React, and React Native. My work also covers APIs, PostgreSQL, and the background jobs behind the interface.
 
-I work across the interface, API, and data layers: connecting an Android app to a back office, giving an agent a background runtime, or making a complex product feel simple to use. I care about clear contracts, useful abstractions, and the last little interaction that makes an interface feel right.
+- 🔧 Currently working on **Associa, PeptAI, Swarms, and Zyllux**.
+- 🧩 I enjoy figuring out how the interface, data, and backend fit together.
+- 🎮 On the side: browser games, Canvas experiments, and probably one more animation.
 
-[Selected engineering work ↓](#selected-engineering-work) · [Languages & tools ↓](#languages--tools) · [Project notes ↗](PROJECTS.md)
+## Languages
 
-<img src="assets/systems.svg" width="100%" alt="Product thinking. Systems underneath. Interfaces → APIs → data → background jobs." />
+<p>
+  <img src="assets/icons/typescript-original.svg" alt="TypeScript" title="TypeScript" width="40" height="40" />&nbsp;&nbsp;
+  <img src="assets/icons/javascript-original.svg" alt="JavaScript" title="JavaScript" width="40" height="40" />&nbsp;&nbsp;
+  <img src="assets/icons/python-original.svg" alt="Python" title="Python" width="40" height="40" />&nbsp;&nbsp;
+  <img src="assets/icons/php-original.svg" alt="PHP" title="PHP" width="40" height="40" />&nbsp;&nbsp;
+  <img src="assets/icons/postgresql-original.svg" alt="SQL / PostgreSQL" title="SQL / PostgreSQL" width="40" height="40" />&nbsp;&nbsp;
+  <img src="assets/icons/html5-original.svg" alt="HTML" title="HTML" width="40" height="40" />&nbsp;&nbsp;
+  <img src="assets/icons/css3-original.svg" alt="CSS" title="CSS" width="40" height="40" />
+</p>
 
-### Selected engineering work
+**TypeScript · JavaScript · Python · PHP · SQL · HTML · CSS**
 
-Four projects I'm working on and contributing to. Their source repositories are private; the engineering notes below give a public overview.
+TypeScript and JavaScript are my main languages. I use SQL for application data, Python for tooling, and PHP in earlier web projects.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="PROJECTS.md#associa"><img src="assets/associa.svg" width="100%" alt="Associa — Next.js web back office and React Native field app, connected through shared contracts and PostgreSQL." /></a>
-<strong>Associa</strong> · Association operations across web and Android, with shared API contracts and a PostgreSQL data layer.<br/><br/>
-<a href="PROJECTS.md#associa">Read the engineering notes ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="PROJECTS.md#peptai"><img src="assets/peptai.svg" width="100%" alt="PeptAI — Expo mobile product with authentication, local state, and Supabase data services." /></a>
-<strong>PeptAI</strong> · Mobile product work spanning authentication, tracking flows, state management, and Supabase-backed data.<br/><br/>
-<a href="PROJECTS.md#peptai">Read the engineering notes ↗</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="PROJECTS.md#swarms"><img src="assets/swarms.svg" width="100%" alt="Swarms — Scheduled agent runs, background execution, event tracking and checkpoints." /></a>
-<strong>Swarms</strong> · An agent workspace with scheduled runs, a separate execution runtime, and persisted progress.<br/><br/>
-<a href="PROJECTS.md#swarms">Read the engineering notes ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="PROJECTS.md#zyllux"><img src="assets/zyllux.svg" width="100%" alt="Zyllux — Multilingual studio platform with shared estimator logic and Cloudflare form workflows." /></a>
-<strong>Zyllux</strong> · A multilingual studio platform combining motion, an adaptive project estimator, and form workflows.<br/><br/>
-<a href="PROJECTS.md#zyllux">Read the engineering notes ↗</a>
-</td>
-</tr>
-</table>
+## Tech stack
 
-<sub>Original conceptual engineering illustrations; not application screenshots.</sub>
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-1C1C1C?style=flat-square&logo=supabase&logoColor=3ECF8E)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-### Languages & tools
+Also working with **Drizzle**, **Trigger.dev**, **Tailwind CSS**, and **GSAP**.
 
-<img src="assets/languages.svg" width="100%" alt="Programming languages: TypeScript, JavaScript, Python, PHP and SQL. Web foundations: HTML and CSS." />
+## What I'm working on
 
-**TypeScript & JavaScript** power most of my current product work. I also use **SQL** for relational data, **Python** for tooling, and **PHP** in earlier web projects, alongside **HTML & CSS**.
+| Project | What it does | Built with |
+| --- | --- | --- |
+| **[Associa](PROJECTS.md#associa)** | Association operations across a web back office and an Android field app. | Next.js · React Native · PostgreSQL |
+| **[PeptAI](PROJECTS.md#peptai)** | Mobile tracking, inventory, and personal records. | Expo · TypeScript · Supabase |
+| **[Swarms](PROJECTS.md#swarms)** | An agent workspace with scheduled runs and background execution. | Next.js · Trigger.dev · Drizzle |
+| **[Zyllux](PROJECTS.md#zyllux)** | A multilingual studio platform with an interactive project estimator. | Next.js · next-intl · Cloudflare |
 
-| Web & mobile | Data & backend | Workflows & craft |
-| :--- | :--- | :--- |
-| React · Next.js | Node.js · PostgreSQL | Trigger.dev · Git |
-| React Native · Expo | Drizzle · Supabase | Cloudflare Workers · Docker |
-| Tailwind CSS · next-intl | Shared API contracts | GSAP · Canvas |
+These are ongoing projects I work on and contribute to. The source is private; each project links to a short public overview.
 
-### A little personality, too
+## Away from the main projects
 
-I like software with a thoughtful interior and a playful surface. Sometimes that means a carefully choreographed interface. Sometimes it means spending far too long watching [tiny particles attract and repel each other](https://github.com/hamzaxbella/Particles_Ecosystem).
+I also make small things just to see how they work — including a [particle simulation](https://github.com/hamzaxbella/Particles_Ecosystem) and a [Canvas arcade game](https://github.com/hamzaxbella/Bulleye-Bully-Bash).
 
-<sub>Built with curiosity, a preference for clear systems, and the occasional “one more small tweak.”</sub>
+---
+
+[Project notes](PROJECTS.md) · [Public repositories](https://github.com/hamzaxbella?tab=repositories&type=public)
+
+<sub>Adapted from the <a href="https://github.com/yerdaulet-damir/awesome-github-readme/blob/main/templates/01-minimal.md">Minimal Profile Template</a>. <a href="CREDITS.md">Credits</a>.</sub>
