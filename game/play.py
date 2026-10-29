@@ -85,7 +85,7 @@ def render(state):
              '', status, '', '| ' + ' | '.join(cols) + ' |',
              '| ' + ' | '.join([':---:']*7) + ' |']
     lines += ['| ' + ' | '.join(discs[v] for v in row) + ' |' for row in state['board']]
-    lines += ['', f"Game {state['number']} · {state['turn']} moves"]
+    lines += ['', f"Game {state['number']} · {state['turn']} move{'s' if state['turn'] != 1 else ''}"]
     if state['last']:
         last = state['last']
         # A GitHub login is data, never arbitrary Markdown.

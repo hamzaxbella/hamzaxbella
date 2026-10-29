@@ -67,7 +67,7 @@ One board, everyone who visits. Connect four. Leave the next move to a stranger.
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | ⚪ | ⚪ | ⚪ | 🔴 | ⚪ | ⚪ | ⚪ |
 
-Game 1 · 1 moves · Last move: hamzaxbella, column 4
+Game 1 · 1 move · Last move: hamzaxbella, column 4
 
 <sub>Click a number → submit the prefilled issue → refresh after the workflow finishes. GitHub sign-in required. [Rules & how it works](game/README.md).</sub>
 <!-- GAME:END -->
