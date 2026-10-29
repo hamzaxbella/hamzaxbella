@@ -8,6 +8,13 @@ I build web and mobile applications with TypeScript, React, and React Native. My
 - 🧩 I enjoy figuring out how the interface, data, and backend fit together.
 - 🎮 On the side: browser games, Canvas experiments, and probably one more animation.
 
+<a href="PROJECTS.md">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hamza-os-still.svg" />
+  <img src="assets/hamza-os.svg" width="100%" alt="Hamza.OS — a decorative animated co-pilot cycling through Associa, PeptAI, Swarms and Zyllux. Open the project notes." />
+</picture>
+</a>
+
 ## Languages
 
 <p>
