@@ -8,12 +8,6 @@ I build web and mobile applications with TypeScript, React, and React Native. My
 - 🧩 I enjoy figuring out how the interface, data, and backend fit together.
 - 🎮 On the side: browser games, Canvas experiments, and probably one more animation.
 
-<a href="https://hamzaxbella.github.io/hamzaxbella/">
-  <img src="assets/under-the-interface.svg" alt="Under the interface — open the interactive project cutaways" width="100%" />
-</a>
-
-[Explore the interactive drawing ↗](https://hamzaxbella.github.io/hamzaxbella/) · Rotate the model, separate the layers, and inspect the four projects.
-
 ## Languages
 
 <p>
