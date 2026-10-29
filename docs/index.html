@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3f1e9">
+  <meta name="description" content="An interactive cutaway of four software projects by Hamza Bella. Rotate the model, separate the layers, and explore the engineering inside.">
+  <title>Under the interface — Hamza Bella</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header>
+    <a class="identity" href="https://github.com/hamzaxbella">HB<span>Hamza Bella<br><small>Software Engineer</small></span></a>
+    <span class="edition">FIELD NOTES / 01—04</span>
+    <a class="back" href="https://github.com/hamzaxbella">GitHub ↗</a>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">UNDER THE INTERFACE</p>
+      <h1>Take it <em>apart.</em></h1>
+      <p class="lede">Four projects. The parts you don’t see.<br>Turn the model. Pull the layers apart. Follow the connections.</p>
+    </section>
+    <nav class="projects" aria-label="Choose a project">
+      <button data-project="associa" aria-pressed="true"><span>01</span> Associa <i>↗</i></button>
+      <button data-project="peptai" aria-pressed="false"><span>02</span> PeptAI <i>↗</i></button>
+      <button data-project="swarms" aria-pressed="false"><span>03</span> Swarms <i>↗</i></button>
+      <button data-project="zyllux" aria-pressed="false"><span>04</span> Zyllux <i>↗</i></button>
+    </nav>
+    <section class="exhibit" aria-label="Interactive project cutaway">
+      <div class="drawing">
+        <div class="drawing-meta"><span id="drawing-caption">FIG. 01 / ASSOCIA</span><span>DRAG TO ROTATE ↔</span></div>
+        <canvas id="model" width="900" height="640" tabindex="0" aria-label="Associa interactive cutaway. Drag to rotate. Arrow keys rotate; Home resets. Use the layer buttons for descriptions."></canvas>
+        <div class="controls">
+          <div class="range-label"><label for="spread">Pull apart</label><output id="spread-value" for="spread">65%</output></div>
+          <input id="spread" type="range" min="0" max="100" value="65" aria-label="Layer separation">
+          <div class="control-actions"><button id="wire" aria-pressed="false">X-ray view</button><button id="reset">Reset angle ↺</button></div>
+        </div>
+      </div>
+      <aside>
+        <p class="eyebrow" id="project-kind">WEB / MOBILE / OPERATIONS</p>
+        <h2 id="project-name">Associa</h2>
+        <p id="project-description">Association operations, from the back office to the field.</p>
+        <div class="layers" aria-label="Inspect a layer"></div>
+        <div class="annotation" aria-live="polite">
+          <p class="eyebrow" id="layer-index">LAYER 01</p>
+          <h3 id="layer-name">Web + field</h3>
+          <p id="layer-description"></p>
+          <p id="layer-stack" class="stack"></p>
+        </div>
+        <a id="project-notes" class="notes" href="https://github.com/hamzaxbella/hamzaxbella/blob/master/PROJECTS.md#associa">Read the engineering notes ↗</a>
+      </aside>
+    </section>
+  </main>
+  <footer><p>Conceptual architecture · Ongoing work · Selected public details</p><details><summary>About this drawing</summary><p>Inspired by the explorable engineering diagrams of <a href="https://ciechanow.ski/mechanical-watch/">Bartosz Ciechanowski</a> and <a href="https://www.redblobgames.com/">Amit Patel</a>. Original drawing and code. Layer placement explains responsibilities; it is not a literal deployment diagram. PeptAI is collaborative product work.</p></details></footer>
+  <noscript><p class="no-js">This drawing needs JavaScript for rotation. <a href="https://github.com/hamzaxbella/hamzaxbella/blob/master/PROJECTS.md">Read the project notes instead.</a></p></noscript>
+</body>
+</html>
