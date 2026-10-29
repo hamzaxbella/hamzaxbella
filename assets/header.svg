@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Hamza Bella — Frontend developer and creative coder</title>
+  <desc id="desc">A dark editorial banner with mint and lime accents, an abstract interface, and playful orbiting particles.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#334641"/></pattern>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#66E1BE"/><stop offset="1" stop-color="#D6F17B"/></linearGradient>
+  </defs>
+  <rect width="1200" height="330" rx="22" fill="#101C19"/>
+  <rect x="745" width="455" height="330" rx="22" fill="url(#dots)"/>
+  <path d="M48 39h32" stroke="#D6F17B" stroke-width="4"/>
+  <text x="48" y="73" fill="#9FB6AD" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3">FRONTEND DEVELOPER / CREATIVE CODER</text>
+  <text x="43" y="159" fill="#F2F5EC" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="78" letter-spacing="-4">HAMZA BELLA<tspan fill="#D6F17B">.</tspan></text>
+  <text x="48" y="206" fill="#B7C7BF" font-family="Arial,Helvetica,sans-serif" font-size="22">Thoughtful interfaces. A playful streak.</text>
+  <rect x="48" y="251" width="165" height="34" rx="17" fill="#22372F"/>
+  <circle cx="67" cy="268" r="4" fill="#66E1BE"/>
+  <text x="80" y="273" fill="#D8E9DF" font-family="monospace" font-size="13">@hamzaxbella</text>
+  <text x="240" y="273" fill="#7E9B8E" font-family="monospace" font-size="13">design → code → play</text>
+  <g transform="translate(833 61)">
+    <circle cx="120" cy="105" r="112" fill="none" stroke="#365A4B" stroke-width="1"/>
+    <ellipse cx="120" cy="105" rx="150" ry="71" fill="none" stroke="#406451" stroke-width="1" transform="rotate(-30 120 105)"/>
+    <rect x="14" y="17" width="218" height="174" rx="12" fill="#152A22" stroke="#547762"/>
+    <path d="M14 51h218" stroke="#3A5A49"/>
+    <circle cx="32" cy="34" r="3" fill="#66E1BE"/><circle cx="44" cy="34" r="3" fill="#799C83"/><circle cx="56" cy="34" r="3" fill="#D6F17B"/>
+    <rect x="33" y="70" width="69" height="101" rx="5" fill="#66E1BE"/>
+    <path d="m50 101 17-13 17 13m-34 5v36h34v-36m-20 36v-18h9v18" fill="none" stroke="#183C2F" stroke-width="3"/>
+    <rect x="117" y="74" width="90" height="7" rx="3" fill="#BBD8C2"/>
+    <rect x="117" y="93" width="66" height="5" rx="2" fill="#4D705C"/>
+    <rect x="117" y="106" width="84" height="5" rx="2" fill="#4D705C"/>
+    <rect x="117" y="132" width="62" height="26" rx="13" fill="#D6F17B"/>
+    <path d="m137 145h22m-6-5 6 5-6 5" fill="none" stroke="#21392A" stroke-width="2"/>
+    <rect x="211" y="-2" width="15" height="15" rx="3" fill="#D6F17B" transform="rotate(14 218 5)"/>
+    <circle cx="-12" cy="153" r="8" fill="#66E1BE"/>
+    <circle cx="248" cy="119" r="5" fill="#D6F17B"/>
+    <path d="m202 168 4 35 10-10 14 3z" fill="#F1F5EB" stroke="#101C19" stroke-width="3"/>
+  </g>
+  <path d="M48 316h1104" stroke="url(#accent)" stroke-width="2"/>
+</svg>
