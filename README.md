@@ -1,74 +1,62 @@
-<a href="https://github.com/hamzaxbella"><img src="assets/header.svg" alt="Hamza Bella — Frontend developer and creative coder. Thoughtful interfaces. A playful streak." width="100%" /></a>
+<p align="center"><img src="assets/cover.png" width="100%" alt="Hamza Bella — Software Engineer. An original modular glass-and-metal system illustration." /></p>
 
-### Salam, I'm Hamza 👋
+### Salam, I'm Hamza.
 
-I build websites that make complex content feel simple — and small browser experiments that make simple rules feel alive.
+**Software engineer building web products, mobile apps, and agent workflows.**
 
-My work moves between **React interfaces**, **Next.js + Sanity websites**, and **creative coding with Canvas**. I care about clear layouts, purposeful motion, and the details people actually notice.
+I work across the interface, API, and data layers: connecting an Android app to a back office, giving an agent a background runtime, or making a complex product feel simple to use. I care about clear contracts, useful abstractions, and the last little interaction that makes an interface feel right.
 
-<p>
-  <a href="https://github.com/hamzaxbella/hamzaxbella/blob/master/PROJECTS.md"><b>Explore my work ↗</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/hamzaxbella/hamzaxbella/issues">Let's talk</a>
-</p>
+[Selected engineering work ↓](#selected-engineering-work) · [Languages & tools ↓](#languages--tools) · [Project notes ↗](PROJECTS.md)
 
----
+<img src="assets/systems.svg" width="100%" alt="Product thinking. Systems underneath. Interfaces → APIs → data → background jobs." />
 
-### Selected work
+### Selected engineering work
+
+Four projects I'm working on and contributing to. Their source repositories are private; the engineering notes below give a public overview.
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>01 / OneSmile</h3>
-<p>A multilingual dental services website with service pages, animated sections, and contact integrations.</p>
-<p><code>React</code> <code>Tailwind CSS</code> <code>GSAP</code></p>
-<a href="https://one-smile.vercel.app">Visit website ↗</a> · <a href="https://github.com/hamzaxbella/OneSmile">Source</a>
+<a href="PROJECTS.md#associa"><img src="assets/associa.svg" width="100%" alt="Associa — Next.js web back office and React Native field app, connected through shared contracts and PostgreSQL." /></a>
+<strong>Associa</strong> · Association operations across web and Android, with shared API contracts and a PostgreSQL data layer.<br/><br/>
+<a href="PROJECTS.md#associa">Read the engineering notes ↗</a>
 </td>
 <td width="50%" valign="top">
-<h3>02 / Betha Architecture</h3>
-<p>A content-managed architecture portfolio with project galleries, category filtering, and motion.</p>
-<p><code>Next.js</code> <code>Sanity</code> <code>TypeScript</code></p>
-<a href="https://betha-archi.vercel.app">Visit website ↗</a> · <a href="https://github.com/hamzaxbella/betha-archi">Source</a>
+<a href="PROJECTS.md#peptai"><img src="assets/peptai.svg" width="100%" alt="PeptAI — Expo mobile product with authentication, local state, and Supabase data services." /></a>
+<strong>PeptAI</strong> · Mobile product work spanning authentication, tracking flows, state management, and Supabase-backed data.<br/><br/>
+<a href="PROJECTS.md#peptai">Read the engineering notes ↗</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>03 / WebFundamentals</h3>
-<p>French-language lessons in HTML, CSS, JavaScript, and HTTP, with a live HTML/CSS playground.</p>
-<p><code>React</code> <code>TypeScript</code> <code>Vite</code></p>
-<a href="https://devweb-lilac.vercel.app">Try the lessons ↗</a> · <a href="https://github.com/hamzaxbella/devweb">Source</a>
+<a href="PROJECTS.md#swarms"><img src="assets/swarms.svg" width="100%" alt="Swarms — Scheduled agent runs, background execution, event tracking and checkpoints." /></a>
+<strong>Swarms</strong> · An agent workspace with scheduled runs, a separate execution runtime, and persisted progress.<br/><br/>
+<a href="PROJECTS.md#swarms">Read the engineering notes ↗</a>
 </td>
 <td width="50%" valign="top">
-<h3>04 / Inalgora Card Generator</h3>
-<p>Turn a PDF template, a cropped portrait, and a few text fields into a downloadable membership card.</p>
-<p><code>JavaScript</code> <code>pdf-lib</code> <code>Canvas</code></p>
-<a href="https://github.com/hamzaxbella/inalgora-card-generator">Explore the tool ↗</a>
+<a href="PROJECTS.md#zyllux"><img src="assets/zyllux.svg" width="100%" alt="Zyllux — Multilingual studio platform with shared estimator logic and Cloudflare form workflows." /></a>
+<strong>Zyllux</strong> · A multilingual studio platform combining motion, an adaptive project estimator, and form workflows.<br/><br/>
+<a href="PROJECTS.md#zyllux">Read the engineering notes ↗</a>
 </td>
 </tr>
 </table>
 
-### The playful side
+<sub>Original conceptual engineering illustrations; not application screenshots.</sub>
 
-| Experiment | What's happening? | Jump in |
-| --- | --- | --- |
-| **Particle Ecosystem** | Colored particles, attraction, repulsion, and surprisingly lively patterns. | [Watch](https://particles-ecosystem.vercel.app) · [Code](https://github.com/hamzaxbella/Particles_Ecosystem) |
-| **BullEye Bully Bash** | A bull-themed Canvas arcade experiment. A little chaos, a lot of collision checks. | [Play](https://hamzaxbella.github.io/Bulleye-Bully-Bash/) · [Code](https://github.com/hamzaxbella/Bulleye-Bully-Bash) |
+### Languages & tools
 
-### Tools I reach for
+<img src="assets/languages.svg" width="100%" alt="Programming languages: TypeScript, JavaScript, Python, PHP and SQL. Web foundations: HTML and CSS." />
 
-**Interfaces** — React, Next.js, TypeScript, JavaScript, Tailwind CSS  
-**Content & motion** — Sanity, GSAP, Framer Motion, Canvas 2D  
-**Also exploring** — React Native and Expo
+**TypeScript & JavaScript** power most of my current product work. I also use **SQL** for relational data, **Python** for tooling, and **PHP** in earlier web projects, alongside **HTML & CSS**.
 
-<details>
-<summary><b>A little context</b></summary>
+| Web & mobile | Data & backend | Workflows & craft |
+| :--- | :--- | :--- |
+| React · Next.js | Node.js · PostgreSQL | Trigger.dev · Git |
+| React Native · Expo | Drizzle · Supabase | Cloudflare Workers · Docker |
+| Tailwind CSS · next-intl | Shared API contracts | GSAP · Canvas |
 
-I started with HTML/CSS portfolio templates and small JavaScript experiments. That grew into routed React apps, CMS-driven websites, and more involved product interfaces.
+### A little personality, too
 
-The [project index](PROJECTS.md) separates selected work, smaller studies, and the learning archive. Forks keep their original attribution, and prototypes are described as prototypes.
+I like software with a thoughtful interior and a playful surface. Sometimes that means a carefully choreographed interface. Sometimes it means spending far too long watching [tiny particles attract and repel each other](https://github.com/hamzaxbella/Particles_Ecosystem).
 
-</details>
-
----
-
-<p align="center"><sub>Serious about the details. Occasionally distracted by 350 tiny particles.</sub></p>
+<sub>Built with curiosity, a preference for clear systems, and the occasional “one more small tweak.”</sub>

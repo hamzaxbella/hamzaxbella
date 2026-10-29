@@ -1,42 +1,57 @@
-# Project index
+# Selected engineering work
 
-A guided tour of my public work. The main profile highlights a small selection; this page adds context for the smaller projects and learning archive.
+I'm Hamza Bella, a software engineer working across web, mobile, data, and agent workflows. This page introduces four projects I'm working on and contributing to. The source repositories are private. These are implementation summaries, not claims that every feature is publicly launched or production complete.
 
-## Start here
+[← Back to the profile](README.md)
 
-| Project | Focus | Explore |
-| --- | --- | --- |
-| **OneSmile** | Multilingual service website · React, GSAP, Tailwind | [Website](https://one-smile.vercel.app) · [Repository](https://github.com/hamzaxbella/OneSmile) |
-| **Betha Architecture** | Content-managed project portfolio · Next.js, Sanity | [Website](https://betha-archi.vercel.app) · [Repository](https://github.com/hamzaxbella/betha-archi) |
-| **WebFundamentals** | Interactive web lessons and a live playground · React, TypeScript | [Website](https://devweb-lilac.vercel.app) · [Repository](https://github.com/hamzaxbella/devweb) |
-| **Inalgora Card Generator** | PDF composition and portrait cropping in the browser | [Repository and setup](https://github.com/hamzaxbella/inalgora-card-generator) |
+## Associa
 
-## Creative coding
+<img src="assets/associa.svg" width="700" alt="Associa engineering illustration" />
 
-| Project | Focus | Explore |
-| --- | --- | --- |
-| **Particle Ecosystem** | Attraction, repulsion, and emergent Canvas patterns | [Demo](https://particles-ecosystem.vercel.app) · [Code](https://github.com/hamzaxbella/Particles_Ecosystem) |
-| **BullEye Bully Bash** | Bull-themed arcade experiment | [Demo](https://hamzaxbella.github.io/Bulleye-Bully-Bash/) · [Code](https://github.com/hamzaxbella/Bulleye-Bully-Bash) |
-| **Shadow Dog** | Sprite animation, player states, and parallax | [Code and controls](https://github.com/hamzaxbella/Shadow-Dog-javascript-Game.) |
-| **Gravel** | Action-game experiments and ongoing V2 work | [Code and roadmap](https://github.com/hamzaxbella/Gravel) |
+**Association operations across a web back office and an Android field app.**
 
-## More web studies
+The repository brings together a Next.js web application, a React Native mobile application, a Node.js background worker, and shared packages. PostgreSQL and Drizzle support the data layer. API request/response contracts are separated from database internals so the web and mobile applications can work against an explicit boundary.
 
-| Project | What it explores |
-| --- | --- |
-| [Toumi Learning Resources](https://github.com/hamzaxbella/toumi-prof) | CMS-managed educational documents and categories |
-| [Next + Sanity Blog](https://github.com/hamzaxbella/next-sanity-blog) | Article routes, Portable Text, and theme switching |
-| [Dental Website](https://github.com/hamzaxbella/dental-website) | Routed service pages and reusable content sections |
-| [Arab-African Summit](https://github.com/hamzaxbella/arab-african-summit) | A historical event website for the 2025 summit |
+The interesting engineering work sits between those parts: operational workflows, shared contracts, field usage, and the background work that connects the product. The codebase includes database acceptance tests and documentation for offline protocols. Development is ongoing.
 
-## Learning archive
+**Stack:** TypeScript, Next.js, React Native, Node.js, PostgreSQL, Drizzle, pnpm, Turborepo.
 
-| Repository | What I practiced |
-| --- | --- |
-| [Learning Projects Library](https://github.com/hamzaxbella/My_Learning_Projects_Library) | Small layouts, animation studies, API exercises, and JavaScript experiments |
-| [Student Manager](https://github.com/hamzaxbella/ReactTypescript-students-app) | Typed CRUD forms and browser persistence |
-| [Kreepy Todo](https://github.com/hamzaxbella/react-todo-list) | Component state, editing, and immutable updates |
-| [Country Explorer](https://github.com/hamzaxbella/travelagency-react-router) | Nested routing and data loaders |
-| [Bilingual Portfolio Template](https://github.com/hamzaxbella/EN-AR-Portfolio-Website-Template-1-Standard-Edition) | Early HTML/CSS portfolio and language switching work |
+## PeptAI
 
-These are learning projects and demonstrations. Their READMEs describe setup and current limitations. Public source availability does not itself grant a license to reuse code, branding, or third-party media; check each repository's license and attribution.
+<img src="assets/peptai.svg" width="700" alt="PeptAI engineering illustration" />
+
+**Mobile product engineering for tracking and personal records.**
+
+An Expo and React Native application with authentication, onboarding, protocol and inventory flows, and personal tracking interfaces. The application uses Zustand stores and a Supabase data-service layer to connect local UI state to persistent records.
+
+The engineering focus includes session handling, predictable state transitions, reusable mobile interfaces, and keeping data operations separate from presentation. This is collaborative product work; this overview does not imply sole authorship or make medical efficacy claims.
+
+**Stack:** TypeScript, React Native, Expo, Expo Router, Zustand, TanStack Query, Supabase.
+
+## Swarms
+
+<img src="assets/swarms.svg" width="700" alt="Swarms engineering illustration" />
+
+**An agent workspace with execution beyond a single chat response.**
+
+A Next.js application connects chats and agent configuration to background execution. Trigger.dev tasks dispatch agent runs and scheduled work, while a separate runtime executes the requests. Run status, events, and checkpoints are persisted through Drizzle and PostgreSQL.
+
+The implementation includes cancellation handling, ownership checks, and scheduled dispatch. The engineering focus is coordinating UI state, job state, and a long-running execution process, with enough persisted progress to follow what happened.
+
+**Stack:** TypeScript, Next.js, Node.js, Trigger.dev, Drizzle, PostgreSQL/Neon, Clerk, OpenAI Codex.
+
+## Zyllux
+
+<img src="assets/zyllux.svg" width="700" alt="Zyllux engineering illustration" />
+
+**A studio platform where visual craft meets application logic.**
+
+A Next.js platform with English and French content, purposeful motion, and an adaptive project estimator. Typed estimator state and shared calculation logic connect the browser experience to server-side validation. Versioned configuration and saved snapshots support reproducible estimates.
+
+Form workflows also have a Cloudflare Workers implementation. The engineering interest is maintaining clear boundaries between presentation, content, calculation, and persistence. Production saving depends on the configured hosting and storage; this overview does not imply that every deployment dependency is provisioned.
+
+**Stack:** TypeScript, Next.js, next-intl, GSAP, Cloudflare Workers, D1.
+
+---
+
+The illustrations are original conceptual diagrams, not screenshots of private applications. Public experiments and earlier learning projects remain available under [Repositories](https://github.com/hamzaxbella?tab=repositories).
