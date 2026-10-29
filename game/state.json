@@ -50,15 +50,22 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0
     ]
   ],
-  "turn": 0,
+  "turn": 1,
   "winner": 0,
   "finished": false,
-  "last": null,
-  "processed": []
+  "last": {
+    "actor": "hamzaxbella",
+    "column": 4,
+    "player": 1,
+    "issue": 1
+  },
+  "processed": [
+    1
+  ]
 }
